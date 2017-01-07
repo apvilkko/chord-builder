@@ -3,6 +3,9 @@
   "rules": {
     "arrow-parens": ["error", "as-needed"],
     "max-len": ["error", 80],
+    "no-continue": 0,
+    "no-mixed-operators": 0,
+    "no-plusplus": 0,
     "object-curly-spacing": ["error", "never"]
   }
 }

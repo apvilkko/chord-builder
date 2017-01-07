@@ -124,7 +124,7 @@ class ChordParser {
     if (extraSus) {
       this.model.quality = 'sus';
       this.model.susInterval = extraSus.interval;
-      remove(isSus)(this.model.extra);
+      this.model.extra = remove(isSus)(this.model.extra);
     }
     return true;
   }
